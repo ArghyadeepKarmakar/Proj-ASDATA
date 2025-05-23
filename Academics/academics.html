@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="academics.css">
+  <script src="https://kit.fontawesome.com/16288edb0a.js" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="../Favicon/academics.ico" type="image/x-icon">
+  <title>Academics-ASDATA</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul class="list">
+      <li><a href="../Home/homepage.html"><i class="fa-solid fa-house" style="color: #ffffff;"></i>Home</a></li>
+      <li><a href="../Academics/academics.html"><i class="fa-solid fa-book" style="color: #ffffff;"></i>Academics</a>
+      </li>
+      <li><a href="../News/news.html"><i class="fa-solid fa-newspaper" style="color: #ffffff;"></i>News</a></li>
+      <li><a href="../AboutUs/aboutus.html"><i class="fa-solid fa-circle-info" style="color: #ffffff;"></i>About Us</a>
+      </li>
+      <li><a href="../ContactUs/contactus.html"><i class="fa-solid fa-address-book" style="color: #ffffff;"></i>Contact
+          Us</a></li>
+    </ul>
+  </nav>
+  <main class="main-content">
+    <div class="rectangle1"></div>
+    <div class="rectangle2"></div>
+    <div class="container">
+      <h1 class="dept-string">Department Dropdown</h1>
+      <select id="departmentDropdown">
+        <option value="CSE">Computer Science & Engineering</option>
+        <option value="department2">Department 2</option>
+        <!-- Add more department options as needed -->
+      </select>
+
+      <select id="semesterDropdown">
+        <option value="semester1">Semester 1</option>
+        <option value="semester2">Semester 2</option>
+        <option value="semester3">Semester 3</option>
+        <option value="semester4">Semester 4</option>
+        <option value="semester5">Semester 5</option>
+        <option value="semester6">Semester 6</option>
+        <option value="semester7">Semester 7</option>
+        <option value="semester8">Semester 8</option>
+        <!-- Add more semester options as needed -->
+      </select>
+
+      <div class="subjects">
+        <h2 id="subject-string">Subjects</h2>
+        <ul id="subjectsList">
+          <!-- Subjects will be dynamically populated based on selection -->
+        </ul>
+      </div>
+      <div id="subjectContentContainer"></div>
+      <div class="syllabus">
+        <h2>Syllabus</h2>
+        <p>Syllabus content here.<a href="https://makautexam.net/aicte_details/aicteugdetails.html" target="_blank">Go to University Website</a></p>
+      </div>
+      <!-- <div class="mindmap">
+        <h2>Mind Map</h2>
+        <p>Mind map content here.</p>
+      </div> -->
+      <div class="question-paper">
+        <h2>Question Paper</h2>
+        <div id="questionPaperLink">
+          <!-- The download link will be dynamically populated based on the selected semester -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-right">
+      <h2> <i class="fa-solid fa-video fa-xl" style="color: #282828;"></i>Reference Videos</h2>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-text">
+      <p>&copy Copyright 2023 ASDATA
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+        <a href=" http://www.apache.org/licenses/LICENSE-2.0"> http://www.apache.org/licenses/LICENSE-2.0</a>
+        <br>
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+      </p>
+    </div>
+  </footer>
+  <script src="academics.js"></script>
+</body>
+
+</html>
